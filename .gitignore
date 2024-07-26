@@ -16,3 +16,147 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentileza Tour - Turismo em Matinhos, PR</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #004d00;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 150px;
+        }
+        nav {
+            background-color: #006400;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #004d00;
+        }
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background-color: #004d00;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #004d00;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="logo.png" alt="Gentileza Tour Logo">
+    <h1>Gentileza Tour</h1>
+    <p>Explore o melhor de Matinhos, PR</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#passeios">Passeios</a>
+    <a href="#galeria">Galeria</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<div class="container">
+
+    <section id="home" class="section">
+        <h2>Bem-vindo ao Gentileza Tour</h2>
+        <img src="matinhos.jpg" alt="Matinhos">
+        <p>Descubra as maravilhas de Matinhos com nossos passeios personalizados e guiados. Experimente a beleza natural, a rica cultura e a hospitalidade local.</p>
+    </section>
+
+    <section id="sobre" class="section">
+        <h2>Sobre Nós</h2>
+        <p>O Gentileza Tour é dedicado a mostrar o melhor que Matinhos tem a oferecer. Desde praias deslumbrantes até trilhas encantadoras, nossa missão é proporcionar experiências inesquecíveis para nossos visitantes.</p>
+    </section>
+
+    <section id="passeios" class="section">
+        <h2>Passeios</h2>
+        <p>Explore nossos passeios e itinerários cuidadosamente planejados:</p>
+        <ul>
+            <li><strong>Passeio às Praias de Matinhos</strong> - Conheça as melhores praias da região com um guia experiente.</li>
+            <li><strong>Trilha na Reserva Natural</strong> - Aventure-se por trilhas e descubra a fauna e flora locais.</li>
+            <li><strong>City Tour</strong> - Explore a cidade e conheça sua história e cultura.</li>
+        </ul>
+    </section>
+
+    <section id="galeria" class="section">
+        <h2>Galeria</h2>
+        <img src="galeria1.jpg" alt="Imagem 1">
+        <img src="galeria2.jpg" alt="Imagem 2">
+        <img src="galeria3.jpg" alt="Imagem 3">
+    </section>
+
+    <section id="contato" class="section">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações ou para fazer uma reserva.</p>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Gentileza Tour. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
